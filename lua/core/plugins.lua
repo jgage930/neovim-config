@@ -17,9 +17,7 @@ return require('packer').startup(function(use)
   use 'olimorris/onedarkpro.nvim'
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
-  -- My plugins here
-  -- use 'foo1/bar1.nvim'
-  -- use 'foo2/bar2.nvim'
+  use 'nvim-lualine/lualine.nvim'
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
