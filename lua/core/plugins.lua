@@ -25,6 +25,10 @@ return require('packer').startup(function(use)
       ts_update()
     end,
   }
+  use {
+    'nvim-telescope/telescope.nvim', 
+    requires = {{ 'nvim-lua/plenary.nvim' }}
+  }
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
