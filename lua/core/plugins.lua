@@ -33,6 +33,8 @@ return require('packer').startup(function(use)
   use 'lewis6991/gitsigns.nvim'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
+  use 'neovim/nvim-lspconfig' 
+  use 'simrat39/rust-tools.nvim'
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
